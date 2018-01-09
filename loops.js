@@ -1,22 +1,4 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @BekahHW
- Sign out
- Watch 0
-  Star 0  Fork 4 BekahHW/javascript-intro-to-looping-abcp
-forked from learn-co-students/javascript-intro-to-looping-abcp
- Code  Pull requests 0  Projects 0  Insights  Settings
-Branch: solution Find file Copy pathjavascript-intro-to-looping-abcp/loops.js
-df358d8  on May 11, 2016
-@pletcher pletcher Update solution
-3 contributors @pletcher @vicfriedman @AnnJohn
-RawBlameHistory    
-33 lines (25 sloc)  482 Bytes
+
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -31,8 +13,8 @@ function forLoop(array) {
 
 
 function whileLoop(n) {
-  while (n > 0) {
-    console.log(--n)
+  while (i > 0) {
+    console.log(i--)
   }
 
   return 'done'
@@ -49,15 +31,3 @@ function doWhileLoop(array) {
 
   return array
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
